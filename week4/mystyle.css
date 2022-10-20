@@ -1,0 +1,43 @@
+#box1 {
+    border: 2px solid rgb(33, 94, 198);
+    width: 200px;
+    background-color: #4E21B7;
+    background-repeat: no-repeat;
+}
+
+#box2_1 {
+    border: 2px solid rgb(33, 94, 198);
+    padding: 50px;
+    margin: 50px;
+    background: url(img/panda.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#box2_2 {
+    border: 2px solid rgb(33, 94, 198);
+    padding: 50px;
+    margin: 50px;
+    background: url(img/world.jpg);
+    background-size: 10%;
+    height: 500px;
+}
+
+#homework1l {
+    border: 7px solid black;
+    margin: 0;
+    border-left: none;
+    margin-right: 150px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 45px;
+
+}
+
+#homework1r {
+    background-image: url("img/hw1.png");
+    background-size: cover;
+    margin-right: 20px;
+
+}
