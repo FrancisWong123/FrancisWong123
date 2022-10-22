@@ -25,7 +25,6 @@
 
 #homework1l {
     border: 7px solid black;
-    margin: 0;
     border-left: none;
     margin-right: 150px;
     padding: 30px;
@@ -67,4 +66,22 @@
     background-repeat: no-repeat;
     margin-top: 130px;
     text-align: center;
+}
+
+#homework3a {
+    margin-left: -30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#homework3b {
+    padding: 20px;
+    border: 8px solid black;
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    margin-left: 100px;
+    border-right: none;
+    margin-right: -15px;
+    font-size: 25px;
 }
