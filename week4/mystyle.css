@@ -121,3 +121,34 @@ p1 {
     margin-top: 40px;
     margin-bottom: 80px;
 }
+
+#homework5a {
+    color: white;
+    margin-top: 130px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+#homework5b {
+    color: white;
+    border-bottom: 3px solid white;
+    margin-top: 150px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+#homework5c {
+    color: white;
+    border-bottom: 3px solid white;
+    margin-top: 150px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+#homework5d {
+    color: white;
+    border-bottom: 3px solid white;
+    margin-top: 150px;
+    margin-right: 20px;
+    font-size: 20px;
+}
