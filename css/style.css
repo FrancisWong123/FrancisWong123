@@ -1,0 +1,19 @@
+.name {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 200px;
+}
+
+.own {
+    display: flex;
+}
+
+.own div {
+    flex: 1;
+}
+
+#container {
+    margin: auto;
+    max-width: 900px;
+    margin-top: 300px;
+}

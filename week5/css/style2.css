@@ -1,0 +1,32 @@
+#container {
+    background-color: #F1F1F1;
+    max-width: 600px;
+    margin: auto;
+}
+
+#img {
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+}
+
+#content {
+    text-align: justify;
+    width: 80%;
+}
+
+#sidebar {
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+}
