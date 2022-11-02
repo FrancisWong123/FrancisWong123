@@ -12,6 +12,11 @@
     flex: 1;
 }
 
+#owns a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 #container {
     margin: auto;
     max-width: 900px;
