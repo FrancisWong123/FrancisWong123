@@ -1,0 +1,85 @@
+.container {
+    position: relative;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#link {
+    margin-right: 15px;
+}
+
+#topnav {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topnav div {
+    display: flex;
+}
+
+#topnav a {
+    color: gray;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    color: white;
+}
+
+.centerleft {
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    width: 100%;
+    text-align: center;
+}
+
+.centerright {
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottomleft {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    display: flex;
+}
+
+#steven {
+    margin-left: 10px;
+    color: white;
+}
+
+.bottomright {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    padding: 20px;
+    border: 2px dotted white;
+}
+
+#story {
+    color: red;
+}
