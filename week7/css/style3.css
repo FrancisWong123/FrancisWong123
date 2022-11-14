@@ -1,0 +1,55 @@
+body {
+    color: #139b13;
+}
+
+p {
+    line-height: 2px;
+}
+
+.container {
+    background-color: #b2efb2;
+    margin: auto;
+    max-width: 700px;
+}
+
+.box {
+    width: 45%;
+    padding: 10px 10px;
+}
+
+.email {
+    display: flex;
+}
+
+.box1 {
+    width: 94%;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.box2 {
+    width: 45%;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.box3 {
+    width: 48.5%;
+    padding: 10px 10px;
+    margin-top: 10px;
+    color: grey;
+}
+
+
+.bxsubmit {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.bximage {
+    background-color: green;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+}
