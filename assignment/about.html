@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        About Me
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03fe1d9ff7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="home">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="works.html">Works</a>
+                <a href="#">Contact</a>
+                <a class="icon" onclick="openNav()">&#9776;</a>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="works.html">Works</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="title">
+                <h1>About Me</h1>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="hobby">
+                <div id="hobbyimage">
+                    <img src="img/hobby.jpg" alt="hobby" width="100%">
+                </div>
+                <div class="my">
+                    <h1>My Hobby</h1>
+                    <p>I will play Chinese Chess in my free time, as it is my hobby. I started going<br>
+                        to the academy when I was 12 years old to learn Chinese Chess tactics.<br>
+                        During my secondary school years, I also competed in nearly 100<br>
+                        competitions. I also travelled to China and Taiwan to receive training to<br>
+                        improve my Chinese Chess skills. I like Chinese Chess because it can<br>
+                        improve my computing skills and logical thinking.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="who">
+            <div class="hobby">
+                <div class="so">
+                    <h1>So, Who Am I?</h1>
+                    <p>Hi, I'm Francis. In addition to being a student, I have coached Chinese<br>
+                        chess in the past. My goal is to assist in the teaching of Chinese chess<br>
+                        to all children. I want to make it easier for people to comprehend the<br>
+                        idea and the approach employed when playing Chinese chess.
+                    </p>
+                </div>
+                <div id="whoimage">
+                    <img src="img/who.jpg" alt="who" width="100%">
+                </div>
+            </div>
+        </div>
+
+        <div id="dog">
+            <div class="hobby">
+                <div id="dogimage">
+                    <img src="img/dog.jpg" alt="who" width="100%">
+                </div>
+                <div id="other">
+                    <p>Another thing that I like most is dogs, because they are so cute. In my<br>
+                        father's factory, I have about six dogs. I will go to the factory to feed<br>
+                        them when I have free time.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="menub">
+            <div class="footer">
+                <div class="bottom">
+                    <p>MENU</p>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="works.html">Works</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="bottom1">
+                    <div><img src="img/facebook.png" alt="facebook"></div>
+                    <div><img src="img/twitter.png" alt="twitter"></div>
+                    <div><img src="img/instagram.png" alt="instagram"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</body>
+
+</html>

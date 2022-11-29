@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        My Works
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/works.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03fe1d9ff7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="home">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="works.html">Works</a>
+                <a href="#">Contact</a>
+                <a class="icon" onclick="openNav()">&#9776;</a>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="works.html">Works</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="title">
+                <h1>My Works</h1>
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="works">
+                <div id="workimage">
+                    <img src="img/work.jpg" alt="work" width="100%">
+                </div>
+                <div class="my">
+                    <p>These are the programming language that I have learned<br>
+                        -Java<br>
+                        -C++<br>
+                        -Javascript
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="github">
+            <div class="works">
+                <div id="hello">
+                    <div id="hi">
+                        <p>I've assigned my homework to my GutHub. Those homework is done<br>
+                            during my university. You can press the button below to see my GitHub.
+                        </p>
+                    </div>
+                    <div id="button">
+                        <button>GitHub</button>
+                    </div>
+                </div>
+                <div id="gitimage">
+                    <img src="img/github.jpg" alt="github" width="100%">
+                </div>
+            </div>
+        </div>
+
+        <div id="intern">
+            <div class="works">
+                <div id="internimage">
+                    <img src="img/intern.jpg" alt="intern" width="100%">
+                </div>
+                <div id="other">
+                    <p>I have also been working as a data entry clerk during my diploma internship<br>
+                        in Kuala Lumpur. The company works as a commission agent and handles<br>
+                        third-party claims for vehicle accidents.<br>
+                        During my industrial training, I learned what documents to prepare when<br>
+                        filing a claim for vehicle losses and how to interact with the workshop<br>
+                        supervisor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="menub">
+            <div class="footer">
+                <div class="bottom">
+                    <p>MENU</p>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="works.html">Works</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="bottom1">
+                    <div><img src="img/facebook.png" alt="facebook"></div>
+                    <div><img src="img/twitter.png" alt="twitter"></div>
+                    <div><img src="img/instagram.png" alt="instagram"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</body>
+
+</html>
