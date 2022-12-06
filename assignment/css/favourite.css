@@ -8,9 +8,15 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h2 {
+    color: white;
+    font-size: 40px;
     text-align: center;
-    font-size: 56px;
+}
+
+p {
+    color: white;
+    line-height: 30px;
 }
 
 #home {
@@ -131,109 +137,66 @@ h1 {
     margin-bottom: 50px;
 }
 
-#work {
+#content1 {
     background-color: #474E68;
 }
 
-.works {
+.contents {
     display: flex;
+    justify-content: center;
     margin: 50px 0px;
-    justify-content: center;
-    gap: 50px;
 }
 
-#workimage {
+#spiderman {
+    width: 50%;
+    margin: auto;
+}
+
+.image {
     width: 50%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.my {
-    color: white;
+.rightcontent {
     width: 50%;
+    padding: 5vw 3vw;
 }
 
 @media screen and (max-width: 800px) {
-    .works {
+    .contents {
         flex-direction: column;
     }
 
-    #workimage {
+    .image {
         width: 100%;
     }
 
-    .my {
-        width: 60%;
+    .rightcontent {
         margin: auto;
+        width: 80%;
+        text-align: center;
+        padding: 0 3vw;
     }
 }
 
-#github {
+#content2 {
     background-color: #50577A;
 }
 
-#hi {
-    color: white;
-    text-align: center;
-}
-
-#button {
-    display: flex;
-    justify-content: center;
-}
-
-#hello {
+#infinite {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto;
 }
 
-#gitimage {
-    width: 50%;
-}
-
-@media screen and (max-width: 800px) {
-    .works {
-        flex-direction: column;
-    }
-
-    #hello {
-        width: 100%;
-    }
-
-    #gitimage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-#intern {
+#content3 {
     background-color: #474E68;
 }
 
-#internimage {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-#other {
-    color: white;
+#raging {
     width: 50%;
     margin: auto;
-    padding: 0 3vw;
-}
-
-@media screen and (max-width: 800px) {
-    .works {
-        flex-direction: column;
-    }
-
-    #internimage {
-        width: 100%;
-    }
 }
 
 #menub {

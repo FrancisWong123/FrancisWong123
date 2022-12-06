@@ -8,11 +8,6 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    text-align: center;
-    font-size: 56px;
-}
-
 #home {
     background-color: #404258;
 }
@@ -131,108 +126,131 @@ h1 {
     margin-bottom: 50px;
 }
 
-#work {
-    background-color: #474E68;
+#contact {
+    background-color: #6B728E;
 }
 
-.works {
+#contacts {
     display: flex;
+    justify-content: center;
     margin: 50px 0px;
-    justify-content: center;
-    gap: 50px;
 }
 
-#workimage {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+h2 {
+    color: #5C2000;
 }
 
-.my {
+p {
     color: white;
+}
+
+#image {
     width: 50%;
+}
+
+.images {
+    display: flex;
+    margin-top: 50px;
+}
+
+.images div img {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+#input {
+    background-color: white;
+    padding: 40px 50px 20px 40px;
+    border-radius: 8px;
+}
+
+.box {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.box1 {
+    width: 100%;
+    padding: 10px 10px 50px 10px;
+}
+
+.first input {
+    border: 2px solid rgb(231, 187, 106);
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button button {
+    background-color: #EF6D58;
+    border: 2px solid #EF6D58;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 50px;
 }
 
 @media screen and (max-width: 800px) {
-    .works {
+    #contacts {
         flex-direction: column;
     }
 
-    #workimage {
+    #image {
         width: 100%;
     }
 
-    .my {
-        width: 60%;
+    .images {
+        margin: auto;
+        margin-left: 10px;
+    }
+
+    #input {
+        width: 50%;
         margin: auto;
     }
 }
 
-#github {
+#contact1 {
     background-color: #50577A;
 }
 
-#hi {
-    color: white;
-    text-align: center;
-}
-
-#button {
+.contactlast {
     display: flex;
-    justify-content: center;
+    margin: 60px 0px 60px 100px;
 }
 
-#hello {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#contactlist1 {
+    margin-left: 50px;
 }
 
-#gitimage {
-    width: 50%;
+#contactlist2 {
+    margin-left: 120px;
 }
 
-@media screen and (max-width: 800px) {
-    .works {
+#contactlist3 {
+    margin-left: 95px;
+}
+
+@media screen and (max-width:800px) {
+    .contactlast {
         flex-direction: column;
+        text-align: center;
+        margin: auto;
     }
 
-    #hello {
-        width: 100%;
+    #contactlist1 {
+        margin-left: -10px;
     }
 
-    #gitimage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-#intern {
-    background-color: #474E68;
-}
-
-#internimage {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-#other {
-    color: white;
-    width: 50%;
-    margin: auto;
-    padding: 0 3vw;
-}
-
-@media screen and (max-width: 800px) {
-    .works {
-        flex-direction: column;
+    #contactlist2 {
+        margin-left: -20px;
     }
 
-    #internimage {
-        width: 100%;
+    #contactlist3 {
+        margin-left: -10px;
     }
 }
 
